@@ -4,7 +4,8 @@ pandas
 scipy
 matplotlib
 seaborn
-biopython           # Bio.SeqIO (04_sequence_structure_utilities)
+biopython           # Bio.SeqIO (project 04)
+MDAnalysis          # trajectory analysis: distance maps, contacts (project 06)
 pybindingcurve      # NMR theoretical binding curves (project 02)
 
 # Not on PyPI — install separately if you run the EDS section of project 03:
