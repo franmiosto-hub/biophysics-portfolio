@@ -1,0 +1,11 @@
+# Core scientific stack used across the notebooks
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+biopython           # Bio.SeqIO (04_sequence_structure_utilities)
+pybindingcurve      # NMR theoretical binding curves (project 02)
+
+# Not on PyPI — install separately if you run the EDS section of project 03:
+#   SMArt  (https://github.com/drazen-petrov/SMArt)
