@@ -22,12 +22,14 @@ portfolio/
 ├── 03_molecular_dynamics_analysis.ipynb
 ├── 04_sequence_structure_utilities.ipynb
 ├── 05_phd_survey_wellbeing_analysis.ipynb
+├── 06_fus_protein_rna_md_analysis.ipynb
 ├── data/topology_files/   # example GROMACS/EDS .itp inputs
 ├── index.html             # themed landing page
 ├── README.md
 ├── requirements.txt
 └── SETUP_GITHUB.md
 ```
+
 
 ## Tech stack
 
