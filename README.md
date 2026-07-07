@@ -35,9 +35,7 @@ portfolio/
 
 ## Data & reproducibility
 
-- Raw and unpublished data files are **intentionally excluded**; notebooks reference generic relative filenames (e.g. `chip_scan.txt`). Add your own data to reproduce.
-- Notebooks that were never used, or whose core cells failed, were removed; a few dead cells were trimmed from otherwise-working notebooks. Outputs were cleared — re-run to regenerate figures.
-- `05_phd_survey_wellbeing_analysis.ipynb` handles human-subjects survey data; **review before publishing publicly** and keep responses private.
+- Raw and unpublished data files are **intentionally excluded**; notebooks reference generic relative filenames.
 
 ## About
 
