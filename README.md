@@ -1,8 +1,8 @@
 # Computational Biophysics — Scripting & Analysis Portfolio
 
-Working research scripts, consolidated into **5 project notebooks** covering **19 analyses** across protein–RNA interactions, molecular dynamics, binding thermodynamics, and quantitative data analysis. Originally Google Colab notebooks; organised by project, cleaned for readability, de-identified, and pruned of unused or broken scripts — original methods preserved.
+Working research scripts, consolidated into **5 project notebooks** covering **19 analyses** across protein–RNA interactions, molecular dynamics, binding thermodynamics, and quantitative data analysis. Originally Google Colab notebooks; organised by project, cleaned for readability, de-identified, and pruned of unused or broken scripts.
 
-> 🔬 **Live page:** open `index.html`, or enable GitHub Pages (see `SETUP_GITHUB.md`).
+> 🔬 **Live page:** [live page](https://franmiosto-hub.github.io/biophysics-portfolio/)
 
 ## Projects
 
@@ -40,6 +40,4 @@ portfolio/
 ## About
 
 **Fran Miočić-Stošić** · [email](mailto:fran.mio.sto@gmail.com) · [GitHub](https://github.com/franmiosto-hub) · [ORCID](https://orcid.org/0009-0005-8384-3074)
-
-_Replace the placeholders above (and in `index.html`) before publishing._
 
