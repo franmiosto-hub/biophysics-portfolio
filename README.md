@@ -41,7 +41,7 @@ portfolio/
 
 ## About
 
-**[Your Name]** · [email](mailto:you@example.com) · [GitHub](https://github.com/yourusername) · [ORCID](https://orcid.org/0000-0000-0000-0000)
+**Fran Miočić-Stošić** · [email](mailto:fran.mio.sto@gmail.com) · [GitHub](https://github.com/franmiosto-hub) · [ORCID](https://orcid.org/0009-0005-8384-3074)
 
 _Replace the placeholders above (and in `index.html`) before publishing._
 
