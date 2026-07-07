@@ -1,6 +1,6 @@
 # Computational Biophysics — Scripting & Analysis Portfolio
 
-Working research scripts, consolidated into **5 project notebooks** covering **19 analyses** across protein–RNA interactions, molecular dynamics, binding thermodynamics, and quantitative data analysis. Originally Google Colab notebooks; organised by project, cleaned for readability, de-identified, and pruned of unused or broken scripts.
+Research scripts, consolidated into **6 project notebooks** covering **24 analyses** across protein–RNA interactions, molecular dynamics, binding thermodynamics, and quantitative data analysis. Originally Google Colab notebooks; organised by project, cleaned for readability, de-identified, and pruned of unused or broken scripts.
 
 > 🔬 **Live page:** [live page](https://franmiosto-hub.github.io/biophysics-portfolio/)
 
@@ -13,7 +13,7 @@ Working research scripts, consolidated into **5 project notebooks** covering **1
 | 03 | [Molecular dynamics & free-energy analysis](./03_molecular_dynamics_analysis.ipynb) | 5 | GROMACS post-processing: time-series observables, protein–RNA contact maps, free-energy matrices, BAR convergence, and EDS alchemical topologies. |
 | 04 | [Sequence, structure & data-visualisation utilities](./04_sequence_structure_utilities.ipynb) | 3 | Assorted smaller analyses: IUPred2 disorder profiles, amino-acid van der Waals volumes, and annotated heatmaps of tabular NMR data. |
 | 05 | [PhD-student wellbeing survey analysis](./05_phd_survey_wellbeing_analysis.ipynb) | 1 | A standalone statistics project: scoring PHQ-9 / GAD-7 questionnaires and comparing groups. (Survey data intentionally excluded.) |
-
+| 06 | [FUS protein–RNA molecular dynamics analysis](./06_fus_protein_rna_md_analysis.ipynb) | 5 | GROMACS post-processing pipeline and MDAnalysis-based structural analysis (distance maps, contact counting, contact-frequency heatmaps) for FUS–RNA simulations. |
 ## Repository layout
 ```
 portfolio/
@@ -31,13 +31,13 @@ portfolio/
 
 ## Tech stack
 
-`Python` · `NumPy` · `pandas` · `SciPy` · `matplotlib` · `seaborn` · `Biopython` · `SMArt` · GROMACS (`.xvg`, `.itp`) · GenePix microarray exports (`.gal`)
+`Python` · `NumPy` · `pandas` · `SciPy` · `matplotlib` · `seaborn` · `Biopython` · `MDAnalysis` · `SMArt` · GROMACS (`.xvg`, `.itp`) · GenePix microarray exports (`.gal`)
 
 ## Data & reproducibility
 
-- Raw and unpublished data files are **intentionally excluded**; notebooks reference generic relative filenames.
+- Raw and unpublished data files are **intentionally excluded**; notebooks reference generic relative filenames. Add your own data to reproduce
 
 ## About
 
-**Fran Miočić-Stošić** · [email](mailto:fran.mio.sto@gmail.com) · [GitHub](https://github.com/franmiosto-hub) · [ORCID](https://orcid.org/0009-0005-8384-3074)
+**Fran Miočić-Stošić** · [email](mailto:fran.mio.sto@gmail.com) · [GitHub](https://github.com/franmiosto-hub) · [ORCID](https://orcid.org/0009-0005-8384-3074) · [LinkedIn](https://www.linkedin.com/in/fran-mio%C4%8Di%C4%87-sto%C5%A1i%C4%87-3236ba212/)
 
