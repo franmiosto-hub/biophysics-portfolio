@@ -116,7 +116,7 @@ footer{padding:26px 0 40px;font-family:var(--mono);font-size:11.5px;color:var(--
   <div>
     <p class="eyebrow">Computational biophysics · protein–RNA interactions</p>
     <h1>Turning binding data into <span class="accent">answers</span>.</h1>
-    <p class="lede">I build analysis pipelines for <strong>peptide microarrays</strong>, <strong>molecular-dynamics simulations</strong>, and <strong>binding thermodynamics</strong> — from raw instrument output to publication figures. Five projects, consolidated from years of research scripting.</p>
+    <p class="lede">I build analysis pipelines for <strong>peptide microarrays</strong>, <strong>molecular-dynamics simulations</strong>, and <strong>binding thermodynamics</strong> — from raw instrument output to publication figures. Six projects, consolidated from years of research scripting.</p>
     <div class="cta-row">
       <a class="btn" href="#work">See the projects</a>
       <a class="btn ghost" href="#about">Get in touch</a>
@@ -147,7 +147,7 @@ footer{padding:26px 0 40px;font-family:var(--mono);font-size:11.5px;color:var(--
 <main class="section" id="work"><div class="wrap">
   <div class="section-head">
     <div>
-      <p class="eyebrow">Index · five projects</p>
+      <p class="eyebrow">Index · six projects</p>
       <h2>Projects</h2>
     </div>
     <p class="mono" style="font-size:12px;color:var(--muted);max-width:36ch">Each project is one notebook consolidating several analyses. Expand to see its contents.</p>
@@ -162,7 +162,6 @@ footer{padding:26px 0 40px;font-family:var(--mono);font-size:11.5px;color:var(--
   <div class="contact">
     <a href="mailto:fran.mio.sto@gmail.com">✉ fran.mio.sto@gmail.com</a>
     <a id="gh-btn" href="${REPO}">↗ GitHub</a>
-    <a href="https://orcid.org/0009-0005-8384-3074">↗ ORCID</a>
     <a href="https://www.linkedin.com/in/fran-mio%C4%8Di%C4%87-sto%C5%A1i%C4%87-3236ba212/" target="_blank" rel="noopener noreferrer">↗ LinkedIn</a>
   </div>
 
@@ -177,8 +176,7 @@ const DATA = {"domains": [{"code": "PM", "file": "01_peptide_microarray_binding_
 const REPO = "franmiosto-hub/biophysics-portfolio";  // set to "githubuser/reponame" after pushing to render notebooks via nbviewer
 
 function nbHref(file, sec){
-  if(REPO){ return `https://nbviewer.org/github/${REPO}/blob/main/${file}` + (sec?`#sec${sec}`:""); }
-  return `./${file}`;
+if(REPO){ return `https://github.com/${REPO}/blob/main/${file}`; }  return `./${file}`;
 }
 
 const ribbon=document.getElementById('ribbon');
